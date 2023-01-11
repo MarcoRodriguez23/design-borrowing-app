@@ -48,19 +48,24 @@
         <div class="flex flex-col justify-center items-center bg-gray-600 w-3/4 h-5/6 rounded-3xl  text-white">
           <form action="msjCuentaCreada.html" class="flex flex-col w-1/2 space-y-2">
             <label for="name">Nombre(s)</label>
-            <input type="text" class="bg-gray-600 text-gray-400 border-b-2" value="Ingrese su nombre o nombres">
+            <input type="text" class="bg-gray-600 text-gray-400 border-b-2" placeholder="Ingrese su nombre o nombres">
             <label for="lName">Apellido(s)</label>
-            <input type="text" class="bg-gray-600 text-gray-400 border-b-2" value="Ingrese sus apellidos">
+            <input type="text" class="bg-gray-600 text-gray-400 border-b-2" placeholder="Ingrese sus apellidos">
             <label for="email">Email</label>
-            <input type="email" class="bg-gray-600 text-gray-400 border-b-2" value="Ingrese su email">
+            <input type="email" class="bg-gray-600 text-gray-400 border-b-2" placeholder="Ingrese su email">
             <label for="passw">Contraseña</label>
-            <input type="text" class="bg-gray-600 text-gray-400 border-b-2" value="Ingrese su constraseña">
-            <label for="passw">Repitir contraseña</label>
-            <input type="text" class="bg-gray-600 text-gray-400 border-b-2" value="Ingrese nuevamente su contraseña">
+            <input type="password" class="bg-gray-600 text-gray-400 border-b-2" placeholder="Ingrese su constraseña" maxlength="8">
+            <label for="passw2">Repitir contraseña</label>
+            <input type="password" class="bg-gray-600 text-gray-400 border-b-2" placeholder="Ingrese nuevamente su contraseña" maxlength="8">
             <div class="flex justify-center py-5">
-              <input type="submit" value="Registrarse" class=" text-gray-800 w-1/2">
+              <input type="submit" value="Registrarse" class=" text-gray-900 w-1/2 rounded-md p-1 shadow-md">
             </div>
           </form>
+          <div class="flex flex-col items-center my-5 w-96">
+            <ul class="list-disc text-justify">
+              <li>La contraseña debe ser máximo de 8 carácteres incluyendo por lo menos 1 mayúscula, minúscula y número</li>
+            </ul>
+          </div>
           <div class="flex flex-col items-center my-5">
             <p>Si cuenta con una cuenta registrada, ingrese por</p>
             <a href="login.html" class="align-middle items-center text-blue-300 hover:underline">aquí.</a>
