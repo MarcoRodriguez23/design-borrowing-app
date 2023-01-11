@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/app-style.css">
+
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="flex flex-col h-screen w-full">
+        <!--Inicia Nav-->
+          <nav class="bg-indigo-600 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
+            <div class="container flex flex-wrap items-center justify-between mx-auto">
+              <a href="index.html" class="flex items-center">
+                  <img src="img/logotipo.png" alt="Logo" />
+              </a>
+              <div class="w-auto md:block md:w-auto" id="navbar-default">
+                <ul class="flex flex-col p-4 mt-4  rounded-lg bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                  <li>
+                    <div class="mt-1 flex rounded-md shadow-sm">
+                        <span class="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 bg-gray-50 px-3 text-sm text-gray-500">Buscar</span>
+                        <input type="text" name="company-website" id="company-website" class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="¿Que desea buscar?">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#notificaciones" class="flex justify-items-center items-center">
+                        <img class="w-8" src="img/notificaciones.png" alt="Logo-notifications" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#notificaciones" class="flex justify-items-center items-center">
+                        <img class="w-8" src="img/perfil.png" alt="Logo-profile" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!--Termina Nav-->
+        
+          <!--Inicia Header-->
+          <header>
+        
+          </header>
+          <!--Termina Header-->
+        
+          <!--Inicia Contenido-->
+          <!-- Inicia el formulario de registro -->
+          <div class="flex-grow">
+
+            <div class="grid grid-cols-2 h-full w-full p-16">
+                <div class="grid grid-rows-3">
+                    <div class="flex text-center justify-items-center items-center">
+                        <p class="text-4xl">
+                            Vaya!!!
+                            No tienes contactos para ver sus
+                            ofertas, ni articulos para ofertar.
+                        </p> 
+                    </div>
+                    <div class="flex w-90 text-center justify-items-center items-center">
+                        <a id="nuevo-articulo" class="text-xl w-full text-black font-bold p-6 rounded-full max-w-80" href="#nuevoArticulo">Ofertar Nuevo Articulo</a>
+                    </div>
+                    <div class="flex w-90 text-center justify-items-center items-center">
+                        <a id="nuevo-contacto" class="text-xl w-full text-black font-bold p-6 rounded-full" href="#nuevoContacto">Buscar nuevo contacto</a>
+                    </div>
+                </div>
+                <div class="flex justify-items-center items-center">
+                    <img class="w-full h-full" src="img/oops.png" alt="Oops image">
+                </div>
+            </div>
+
+          </div>
+          <!-- Termina el formulario de registro -->
+          <!--Termina Contenido-->
+        
+          <!--Inicia Footer-->
+          <footer class="p-4 bg-indigo-700 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+              <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2023 <a href="index.html" class="hover:underline">CESIGO</a>. Todos los derechos reservados.</span>
+              <span class="text-sm text-white sm:text-center dark:text-gray-400">Equipo: #</span>
+          </footer>
+        </div>
+</body>
+</html>
