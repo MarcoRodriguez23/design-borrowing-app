@@ -38,43 +38,45 @@
   <!--Termina Header-->
 
   <!--Inicia Contenido-->
-  <!-- Inicia el formulario de registro -->
+  <!-- Inicia el mensaje de cuenta registrada -->
   <div class="flex-grow">
     <div class="grid grid-cols-2 h-full w-full bg-gray-200">
       <div class="flex justify-center items-center">
         <img class="flex items-center w-full" src="img/fondo1.png" alt="fondologin">
       </div>
-      <div class="flex justify-center items-center">
-        <div class="flex flex-col justify-center items-center bg-gray-600 w-3/4 h-5/6 rounded-3xl  text-white">
-          <form action="msjCuentaCreada.html" class="flex flex-col w-1/2 space-y-2">
-            <label for="name">Nombre(s)</label>
-            <input type="text" class="bg-gray-600 text-gray-400 border-b-2" placeholder="Ingrese su nombre o nombres" autofocus>
-            <label for="lName">Apellido(s)</label>
-            <input type="text" class="bg-gray-600 text-gray-400 border-b-2" placeholder="Ingrese sus apellidos">
-            <label for="email">Email</label>
-            <input type="email" class="bg-gray-600 text-gray-400 border-b-2" placeholder="Ingrese su email" required>
-            <label for="passw">Contraseña</label>
-            <input type="password" class="bg-gray-600 text-gray-400 border-b-2" placeholder="Ingrese su constraseña" maxlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8}" required>
-            <label for="passw2">Repitir contraseña</label>
-            <input type="password" class="bg-gray-600 text-gray-400 border-b-2" placeholder="Ingrese nuevamente su contraseña" maxlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8}" required>
-            <div class="flex justify-center py-5">
-              <input type="submit" value="Registrarse" class=" text-gray-900 w-1/2 rounded-md p-1 shadow-md">
+      <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-col items-center bg-gray-600 w-3/4 h-4/6 rounded-3xl  text-white">
+          <div class="flex flex-col items-center space-y-8 my-7">
+            <div>
+              <div>
+
+              </div>
+              <div>
+
+              </div>
+              <div>
+
+              </div>
+              <div>
+
+              </div>
             </div>
-          </form>
-          <div class="flex flex-col items-center my-5 w-96">
-            <ul class="list-disc text-justify">
-              <li>La contraseña debe ser de 8 carácteres incluyendo por lo menos 1 mayúscula, minúscula y número</li>
-            </ul>
-          </div>
-          <div class="flex flex-col items-center my-5">
-            <p>Si cuenta con una cuenta registrada, ingrese por</p>
-            <a href="login.html" class="align-middle items-center text-blue-300 hover:underline">aquí.</a>
+            <div>
+              <input type="checkbox" name="manSesion">
+              <label for="manSesion">Mantener sesión Iniciada</label>
+            </div>
+            <div>
+              <button>Ingresar</button>
+            </div>
+            <div>
+              <p>¿Olvidaste tu contraseña? Clic <a href="">aquí</a> para restablecerla</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Termina el formulario de registro -->
+  <!-- Termina el mensaje de cuenta registrada -->
   <!--Termina Contenido-->
 
   <!--Inicia Footer-->
