@@ -1,0 +1,24 @@
+.nav-color-bg{
+    background-color: #504DAC;
+}
+.no-dec{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nuevo-contacto{
+    background-color: #C1F2F9;
+}
+
+#nuevo-contacto:hover{
+    background-color: #77e8fa;
+}
+
+#nuevo-articulo{
+    background-color: #D7FACA;
+}
+
+#nuevo-articulo:hover{
+    background-color: #a3ff81;
+}
