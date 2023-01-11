@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="dist/app-style.css">
-
     <title>Home Page</title>
 </head>
 <body>
+    
     <div class="flex flex-col h-screen w-full">
         <!--Inicia Nav-->
           <nav class="bg-indigo-600 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
@@ -17,7 +17,7 @@
               <a href="index.html" class="flex items-center">
                   <img src="img/logotipo.png" alt="Logo" />
               </a>
-              <div class="w-auto md:block md:w-auto" id="navbar-default">
+              <div class="w-auto md:block md:w-auto sm:flex sm:w:h-full" id="navbar-default">
                 <ul class="flex flex-col p-4 mt-4  rounded-lg bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                   <li>
                     <div class="mt-1 flex rounded-md shadow-sm">
@@ -42,36 +42,64 @@
           <!--Termina Nav-->
         
           <!--Inicia Header-->
-          <header>
-        
+          <header class="my-8">
+            <div class="container flex flex-wrap items-center justify-between mx-auto ">
+                <div class="flex">
+                    <p class="text-2xl font-bold">
+                        Bienvenido Nuevamente...
+                    </p>
+                </div>
+                <div>
+                    <a id="nuevo-articulo" class="text-xl w-full text-black p-4 rounded-full" href="#nuevoContacto">Ofertar Nuevo Articulo</a>
+                </div>
+            </div>
           </header>
           <!--Termina Header-->
         
           <!--Inicia Contenido-->
           <div class="flex-grow">
-
-            <div class="grid grid-cols-2 h-full w-full p-16">
-                <div class="grid grid-rows-3">
-                    <div class="flex text-center justify-items-center items-center">
-                        <p class="text-4xl text-justify">
-                            Vaya!!!
-                            No tienes contactos para ver sus
-                            ofertas, ni articulos para ofertar.
-                        </p> 
-                    </div>
-                    <div class="flex w-90 text-center justify-items-center items-center">
-                        <a id="nuevo-articulo" class="text-xl w-full text-black font-bold p-6 rounded-full max-w-80" href="#nuevoArticulo">Ofertar Nuevo Articulo</a>
-                    </div>
-                    <div class="flex w-90 text-center justify-items-center items-center">
-                        <a id="nuevo-contacto" class="text-xl w-full text-black font-bold p-6 rounded-full" href="#nuevoContacto">Buscar nuevo contacto</a>
-                    </div>
+            <!--Inicia Encabezados-->
+            <div class="grid grid-cols-3 gap-4 w-full p-8">
+                <div class="flex text-center">
+                    <p class="text-2xl font-black text-gray-900 dark:text-white w-full">
+                        Ofertas de mis contactos
+                    </p>
                 </div>
-                <div class="flex justify-items-center items-center">
-                    <img class="w-full h-full" src="img/oops.png" alt="Oops image">
+                <div class="flex text-center">
+                    <p class="text-2xl font-black text-gray-900 dark:text-white w-full">
+                        Ofertas solicitadas
+                    </p>
+                </div>
+                <div class="flex text-center">
+                    <p class="text-2xl font-black text-gray-900 dark:text-white w-full">
+                        Mis articulos en oferta
+                    </p>
                 </div>
             </div>
+            <!--Termina Encabezados-->
+            <div class="grid grid-cols-3 gap-4 h-full w-full p-8">
+                <div class="grid grid-rows gap-4">
 
-          </div>
+                    <div class="flex bg-gray-900">
+                        
+                    </div>
+                    <div class="flex bg-gray-900">
+                        
+                    </div>
+                </div>
+                <div class="grid grid-rows">
+                    
+                    <div class="flex bg-gray-900">
+                        
+                    </div>
+                </div>
+                <div class="grid grid-rows">
+                    
+                    <div class="flex bg-gray-900">
+                        
+                    </div>
+                </div>
+            </div>
           <!--Termina Contenido-->
         
           <!--Inicia Footer-->
@@ -80,5 +108,6 @@
               <span class="text-sm text-white sm:text-center dark:text-gray-400">Equipo: #</span>
           </footer>
         </div>
+
 </body>
 </html>
