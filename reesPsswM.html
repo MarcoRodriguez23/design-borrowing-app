@@ -38,23 +38,27 @@
   <!--Termina Header-->
 
   <!--Inicia Contenido-->
-  <!-- Inicia el mensaje de cuenta registrada -->
+  <!-- Inicia la ventana para reestablecer contraseña -->
   <div class="flex-grow">
     <div class="grid grid-cols-2 h-full w-full bg-gray-200">
       <div class="flex justify-center items-center">
         <img class="flex items-center w-full" src="img/fondo1.png" alt="fondologin">
       </div>
-      <div class="flex flex-col justify-center items-center">
-        <div class="flex flex-col items-center bg-gray-600 w-3/4 h-1/4 rounded-3xl  text-white">
-          <div class="flex flex-col items-center space-y-8 my-7">
-            <h2 class="text-3xl text-center font-bold">Cuenta Registrada</h2>
-            <p class="w-3/4 text-justify">Su cuenta se ha registrado exitosamente, para poder iniciar sesion de clic <a href="login.html" class="text-blue-300 hover:underline">aqui.</a></p>
+      <div class="flex justify-center items-center">
+        <div class="flex flex-col items-center content-around bg-gray-600 w-3/4 h-1/3 rounded-3xl  text-white">
+          <div class="flex-col items-center justify-center content-around space-y-4 m-7">
+            <h1 class="text-2xl font-semibold text-center">Reestablecer contraseña</h1>
+            <p class="text-justify">Por favor ingrese su Email asociado a su cuenta para que reciba las instrucciones para reestablecer su cotnraseña</p>
+            <form action="reesPsswS.html" class="flex flex-col items-center justify-center">
+              <input type="email" required placeholder="Ingrese su email aqui" class="bg-gray-600 text-gray-400 border-b-2 my-2 text-center"> 
+              <input type="submit" value="Enviar" class="mx-auto my-2 w-20 rounded-md text-gray-700 text-center">
+            </form>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Termina el mensaje de cuenta registrada -->
+  <!-- Termina la ventana para reestablecer contraseña-->
   <!--Termina Contenido-->
 
   <!--Inicia Footer-->

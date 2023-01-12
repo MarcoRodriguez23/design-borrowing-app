@@ -14,7 +14,7 @@
 <!--Inicia Nav-->
   <nav class="bg-indigo-600 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
-      <a href="menuP.html" class="flex items-center">
+      <a href="index.html" class="flex items-center">
           <img src="img/logotipo.png" alt="Logo" />
       </a>
       <div class="w-auto md:block md:w-auto" id="navbar-default">
@@ -38,45 +38,33 @@
   <!--Termina Header-->
 
   <!--Inicia Contenido-->
-  <!-- Inicia el mensaje de cuenta registrada -->
+  <!-- Inicia el login -->
   <div class="flex-grow">
     <div class="grid grid-cols-2 h-full w-full bg-gray-200">
       <div class="flex justify-center items-center">
         <img class="flex items-center w-full" src="img/fondo1.png" alt="fondologin">
       </div>
-      <div class="flex flex-col justify-center items-center">
-        <div class="flex flex-col items-center bg-gray-600 w-3/4 h-4/6 rounded-3xl  text-white">
-          <div class="flex flex-col items-center space-y-8 my-7">
-            <div>
-              <div>
-
-              </div>
-              <div>
-
-              </div>
-              <div>
-
-              </div>
-              <div>
-
-              </div>
+      <div class="flex flex-row justify-center items-center">
+        <div class="flex flex-col justify-center items-center content-around bg-gray-600 text-white w-3/4 h-1/2 rounded-3xl">
+          <form action="homeSA.html" class="flex flex-col content-around justify-center h-3/4 w-60">
+            <label for="lEmail" class="my-2">Email</label>
+            <input type="email" placeholder="Ingresa tu email aqui" required class="bg-gray-600 text-gray-400 border-b-2 my-2">
+            <label for="lPssw" class="my-2">Contraseña</label>
+            <input type="password" placeholder="Ingresa tu constraseña aqui" required maxlength="8" class="bg-gray-600 text-gray-400 border-b-2 my-2">
+            <div class="flex flex-row justify-center my-2">
+              <input type="checkbox" class="mx-2">
+              <label for="mantSesion">Mantener mi sesión abierta</label>
             </div>
-            <div>
-              <input type="checkbox" name="manSesion">
-              <label for="manSesion">Mantener sesión Iniciada</label>
-            </div>
-            <div>
-              <button>Ingresar</button>
-            </div>
-            <div>
-              <p>¿Olvidaste tu contraseña? Clic <a href="">aquí</a> para restablecerla</p>
-            </div>
+            <input type="submit" value="Ingresar" class="mx-auto my-5 w-1/2 rounded-md text-gray-700">
+          </form>
+          <div>
+            <p>¿Olvidaste tu contraseña? Clic <a href="reesPsswM.html" class="text-blue-400 hover:underline">aquí</a> para restablecerla</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Termina el mensaje de cuenta registrada -->
+  <!-- Termina el login -->
   <!--Termina Contenido-->
 
   <!--Inicia Footer-->
