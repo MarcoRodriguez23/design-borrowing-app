@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/app-style.css">
+    <title>Perfil - inicio</title>
+</head>
+<body>
+    
+    <div class="flex flex-col h-screen w-full">
+        <!--Inicia Nav-->
+        <nav class="bg-indigo-600 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
+            <div class="container flex flex-wrap items-center justify-between mx-auto">
+              <a href="index.html" class="flex items-center">
+                  <img src="img/logotipo.png" alt="Logo" />
+              </a>
+              <div class="w-auto md:block md:w-auto" id="navbar-default">
+                <ul class="flex flex-col p-4 mt-4  rounded-lg bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                  <li>
+                    <div class="mt-1 flex rounded-md shadow-sm">
+                        <span class="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 bg-gray-50 px-3 text-sm text-gray-500">Buscar</span>
+                        <input type="text" name="company-website" id="company-website" class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="¿Que desea buscar?">
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#notifications" class="flex justify-items-center items-center">
+                        <img class="w-8" src="img/notificaciones.png" alt="Logo-notifications" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#profile" class="flex justify-items-center items-center">
+                        <img class="w-8" src="img/perfil.png" alt="Logo-profile" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!--Termina Nav-->
+        
+          <!--Inicia Header-->
+          <header>
+                <!-- Background image -->
+            <div class="relative overflow-hidden bg-no-repeat bg-cover" style="
+            background-position: 50%;
+            background-image: url('img/fondoPerfil.png');
+            height: 350px;">
+                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                    style="background-color: rgba(0, 0, 0, 0.75)">
+                    <div class="flex justify-center items-center h-full">
+                    <div class="text-center text-white px-6 md:px-12">
+                        <img src="img/perfil.png" alt="perfil">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Background image -->
+          </header>
+          <!--Termina Header-->
+        
+          <!--Inicia Contenido-->
+            <div class="flex-grow">
+               
+            </div>
+          <!--Termina Contenido-->
+        
+          <!--Inicia Footer-->
+          <footer class="p-4 bg-indigo-700 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+              <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2023 <a href="index.html" class="hover:underline">CESIGO</a>. Todos los derechos reservados.</span>
+              <span class="text-sm text-white sm:text-center dark:text-gray-400">Equipo: #</span>
+          </footer>
+        </div>
+
+</body>
+</html>
